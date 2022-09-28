@@ -1,0 +1,23 @@
+body {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+   width: 90%;
+   margin: 0 5% 0 5%;
+}
+
+label, 
+input {
+    margin: 10px;
+}
+
+body div {
+    margin: 10px;
+}
