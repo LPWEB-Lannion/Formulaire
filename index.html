@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="ROCHAT LISE"/>
+    <title>TD01-Bases HTML</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+        <h1>Formulaire</h1>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Votre identité ?</legend>
+                
+                <input type="text" name="firstname">
+                <label for="firstname">Nom :</label>
+    
+                <input type="text" name="lastname">
+                <label for="lastname">Prénom :</label>
+                <div>
+                    <input type="number" name="postal-code">
+                    <label for="postal-code"> Code postal :</label>
+    
+                    <input type="text" name="city" placeholder="Lannion">
+                    <label for="city"> Ville :</label>
+                </div>
+    
+                <input type="number" name="phone-number" placeholder="0000000000">
+                <label for="phone-number">Téléphone :</label>
+    
+                <input type="text" name="web-site" placeholder="https://www">
+                <label for="web-site">Site web personnel :</label>
+            </fieldset>
+            <fieldset>
+                <legend>Votre voiture ?</legend>
+
+                <input type="text" name="brand-car">
+                <label for="brand-car">Marque de voiture</label>
+
+                <input type="text" name="id-car" placeholder="DJ-181-AP">
+                <label for="id-car">Plaque d'immatriculation :</label>
+            </fieldset>
+            <fieldset>
+                <legend>Votre cinéma préféré ?</legend>
+            </fieldset>
+            <div>
+                <button type="submit">S'abonner</button>
+            </div>
+        </form>
+    </main>
+  </body>
+  </html>
